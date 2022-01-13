@@ -1,6 +1,7 @@
 .calculator {
     width: 50%;
     display: flex;
+ justify-content: space-between;
     flex-wrap: wrap;
     margin: 50px auto;
     background-color: rgb(165, 182, 182);
