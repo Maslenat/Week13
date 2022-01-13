@@ -4,9 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     
+    <button onclick="showMessage()">Нажми меня</button>
+    <div class="calculator"> 
+        <button onclick=" calcSum()">Сумма</button>
+        <button onclick=" calcSub()">Вычитание</button>
+        <button onclick=" calcMult()">Умножение</button>
+        <button onclick=" calcDiv()">Деление</button>
+    </div>
+   
+
+    <script>
+        
+        function calcSum(){
+            let a = prompt('Введите первый аргумент', );
+            let b = prompt('Введите второй аргумент', );
+            alert (Number(a)+Number(b));
+      
+           
+        }
+        function calcSub(){
+            let a = prompt('Введите первый аргумент', );
+            let b = prompt('Введите второй аргумент', );
+            alert (Number(a)-Number(b));
+      
+           
+        }
+        function calcMult(){
+            let a = prompt('Введите первый аргумент', );
+            let b = prompt('Введите второй аргумент', );
+            alert (Number(a)*Number(b));
+      
+           
+        }
+        function calcDiv(){
+            let a = prompt('Введите первый аргумент', );
+            let b = prompt('Введите второй аргумент', );
+            alert (Number(a)/Number(b));
+      
+           
+        }
+
+  function showMessage() {
+    let name = prompt('Как тебя зовут?', );
+    alert(`Привет, ${name}!`); 
+                      }
+
+
+    </script> 
 </body>
 </html>
